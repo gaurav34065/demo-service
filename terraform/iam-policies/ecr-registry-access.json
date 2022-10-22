@@ -1,0 +1,20 @@
+{
+    "Statement": [
+        {
+            "Action": [
+                "ecr-public:GetAuthorizationToken",
+                "ecr-public:InitiateLayerUpload",
+                "ecr-public:UploadLayerPart",
+                "ecr-public:CompleteLayerUpload",
+                "ecr-public:BatchCheckLayerAvailability",
+                "ecr-public:DescribeImages",
+                "ecr-public:DescribeRepositories",
+                "ecr-public:PutImage",
+                "sts:GetServiceBearerToken"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ],
+    "Version": "2012-10-17"
+}

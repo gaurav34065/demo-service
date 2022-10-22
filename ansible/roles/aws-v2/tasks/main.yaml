@@ -1,0 +1,14 @@
+---
+- name: download latest aws cli v2
+  get_url:
+    url: https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
+    dest: /tmp/awscliv2.zip
+
+- name: unzip aws cli v2
+  unarchive:
+    src: /tmp/awscliv2.zip
+    dest: /tmp/
+    mode: '755'
+
+- name: install aws cli
+  shell: "sudo /tmp/aws/install -b /usr/bin"
