@@ -1,4 +1,3 @@
-This repo contains solution to the coding challenge for Senior DevOps role at CareerFoundry </br>
 Author : Gaurav Sharma </br>
 Email  : gaurav_sharma34065@yahoo.com
 
@@ -53,4 +52,4 @@ Do a sudo and access `/var/log/cloud-init-output.log`
 ### NOTE :
 - I have excluded many features like replications, Load Balancers, NAT gateways as this exercise was done on a free tier.
 - To keep code simple to understand and test, i did not use terraform modules, variables etc.
-- Due to the time constraint i left few things which we can automate and simplify here. We can discuss them during next round of interviews.
+- Due to the time constraint i left few things which we can automate and simplify here.
